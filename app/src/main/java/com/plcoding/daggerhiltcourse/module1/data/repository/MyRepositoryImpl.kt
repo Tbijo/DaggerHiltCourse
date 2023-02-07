@@ -1,9 +1,9 @@
-package com.plcoding.daggerhiltcourse.data.repository
+package com.plcoding.daggerhiltcourse.module1.data.repository
 
 import android.app.Application
 import com.plcoding.daggerhiltcourse.R
-import com.plcoding.daggerhiltcourse.data.remote.MyApi
-import com.plcoding.daggerhiltcourse.domain.repository.MyRepository
+import com.plcoding.daggerhiltcourse.module1.data.remote.MyApi
+import com.plcoding.daggerhiltcourse.module1.domain.repository.MyRepository
 import javax.inject.Inject
 
 class MyRepositoryImpl @Inject constructor(

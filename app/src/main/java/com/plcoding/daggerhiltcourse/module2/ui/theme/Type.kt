@@ -1,4 +1,4 @@
-package com.plcoding.daggerhiltcourse.ui.theme
+package com.plcoding.daggerhiltcourse.module2.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

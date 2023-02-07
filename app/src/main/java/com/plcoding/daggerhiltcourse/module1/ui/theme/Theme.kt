@@ -1,4 +1,4 @@
-package com.plcoding.daggerhiltcourse.ui.theme
+package com.plcoding.daggerhiltcourse.module1.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

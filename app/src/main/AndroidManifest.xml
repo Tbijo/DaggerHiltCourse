@@ -3,7 +3,7 @@
     package="com.plcoding.daggerhiltcourse">
 
     <application
-        android:name=".MyApp"
+        android:name=".module1.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,7 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DaggerHiltCourse">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.DaggerHiltCourse" />
+        <activity
+            android:name=".module1.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DaggerHiltCourse">
